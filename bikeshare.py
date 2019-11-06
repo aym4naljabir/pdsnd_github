@@ -176,17 +176,6 @@ def user_stats(df):
         usb(df)
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*80)
-def convert_hours(hour):
-    if hour >= 12  :
-        if hour == 12:
-            return("12 PM")
-        else:
-            return( str(hour - 12) + " PM")
-    else:
-        if hour == 0 :
-            return("12 AM")
-        else:
-            return(str(hour)+ " AM")
 def usg(df):
     """Displays statistics of analysis based on the gender of bikeshare users."""
 
