@@ -32,7 +32,7 @@ def get_filters():
         if month in MONTHS :
             break
         else : 
-                print("You enterd a wrong month please try again : ")
+                print("Please enter one of these months January,February,March,April,May,June or all ")
                
 
     
@@ -41,7 +41,7 @@ def get_filters():
         if day in DAYS :
             break
         else : 
-                print("You enterd a wrong day please try again : ")
+                print("Please enter day as Saturday,Sunday,Monday,Tuesday,Wednesday,Thursday,Friday or all : ")
 
     print('-'*80)
     return city, month, day
