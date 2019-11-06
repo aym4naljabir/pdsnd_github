@@ -1,5 +1,5 @@
 ### Date created
-11/06/2019
+This project was created on 11/06/2019
 
 ### Project Title
 Explore Bikeshare Data
